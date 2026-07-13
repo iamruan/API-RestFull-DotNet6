@@ -5,7 +5,7 @@ namespace API.Entities.ViewModels
     public class NewsViewModel
     {
 
-        public string Id { get; set; }
+        public string? Id { get; set; }
         public string Hat { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
